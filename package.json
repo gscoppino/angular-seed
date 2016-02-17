@@ -1,10 +1,14 @@
 {
   "name": "angular-seed",
   "version": "0.0.0",
-  "description": "A modular Gulp configuration with sensible defaults.",
-  "main": "gulpfile.babel.js",
+  "description": "Seed for Angular 1.x ES2015 + SASS frontend.",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run gulp build",
+    "watch:build": "npm run gulp watch:build",
+    "test": "npm run gulp test",
+    "serve:dev": "npm run gulp serve",
+    "serve:production": "npm run gulp serve:production"
   },
   "author": "Giuseppe Scoppino <scoppino.giuseppe@gmail.com>",
   "license": "MIT",
