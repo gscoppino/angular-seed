@@ -1,5 +1,5 @@
 {
-  "name": "gulp-seed",
+  "name": "angular-seed",
   "version": "0.0.0",
   "description": "A modular Gulp configuration with sensible defaults.",
   "main": "gulpfile.babel.js",
