@@ -26,6 +26,7 @@
     "isparta": "^4.0.0",
     "istanbul": "gotwarlost/istanbul#source-map",
     "jasmine-core": "^2.4.1",
+    "jspm": "^0.16.29",
     "karma": "^0.13.21",
     "karma-babel-preprocessor": "^6.0.1",
     "karma-coverage": "douglasduteil/karma-coverage#next",
