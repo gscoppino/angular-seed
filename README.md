@@ -3,11 +3,12 @@ using gscoppino/gulp-seed.
 
 What you get:
 * Write Angular 1.x in ES2015 using ES2015 modules.
+* Frontend JS dependency management via JSPM, which supports loading dependencies
+  using ES2015 module loading syntax.
 * Unit testing via Karma/Jasmine (also supporting ES2015 and ES2015 modules)
 * Frontend code coverage reports for ES2015.
-* Frontend dependency management via JSPM, which supports loading dependencies
-  using ES2015 module loading syntax.
 * Write stylesheets in SASS.
+*  Frontend SASS dependency management via JSPM.
 * Serve development and production builds with BrowserSync (with support for LiveReload).
 
 # Using The Boilerplate
