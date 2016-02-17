@@ -19,18 +19,24 @@ import sourcemaps from 'gulp-sourcemaps';
 import watch from 'gulp-watch';
 import batch from 'gulp-batch';
 
+// JSPM path resolver for external SCSS
+import sassJspmImporter from 'sass-jspm-importer';
+
 export default function (config) {
 
 	// Styles paths
 	const SASS_ENTRY = path.join(config.paths.src, 'main.scss');
 	const SASS_GLOB = path.join(config.paths.src, '**', '*.scss');
+	const SASS_LIB_ROOT = path.join(config.paths.src, 'lib');
 	const OUTPUT_DIR = config.paths.dest;
 	const OUTPUT_FILE = 'app.min.css';
 
 	/* Plugin Configuration */
 
 	const SASS_CONFIG = {
-		outputStyle: 'compressed'
+		outputStyle: 'compressed',
+		functions: sassJspmImporter.resolve_function(SASS_LIB_ROOT),
+		importer: sassJspmImporter.importer
 	};
 
 	const AUTOPREFIXER_CONFIG = {

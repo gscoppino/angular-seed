@@ -35,7 +35,8 @@
     "karma-mocha-reporter": "^1.1.5",
     "karma-phantomjs-launcher": "^1.0.0",
     "minimist": "^1.2.0",
-    "phantomjs-prebuilt": "^2.1.4"
+    "phantomjs-prebuilt": "^2.1.4",
+    "sass-jspm-importer": "0.0.6"
   },
   "jspm": {
     "directories": {
