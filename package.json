@@ -4,11 +4,12 @@
   "description": "Seed for Angular 1.x ES2015 + SASS frontend.",
   "main": "main.js",
   "scripts": {
-    "build": "npm run gulp build",
-    "watch:build": "npm run gulp watch:build",
-    "test": "npm run gulp test",
-    "serve:dev": "npm run gulp serve",
-    "serve:production": "npm run gulp serve:production"
+    "postinstall": "jspm install",
+    "build": "gulp build",
+    "watch:build": "gulp watch:build",
+    "test": "gulp test",
+    "serve:dev": "gulp serve",
+    "serve:production": "gulp serve:production"
   },
   "author": "Giuseppe Scoppino <scoppino.giuseppe@gmail.com>",
   "license": "MIT",
