@@ -50,14 +50,14 @@
     },
     "configFile": "src/_system.config.js",
     "dependencies": {
-      "angular": "github:angular/bower-angular@^1.4.9",
-      "angular-mocks": "github:angular/bower-angular-mocks@^1.4.9"
+      "angular": "github:angular/bower-angular@^1.5.0",
+      "angular-mocks": "github:angular/bower-angular-mocks@^1.5.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4",
-      "scss": "github:mobilexag/plugin-sass@^0.2.1"
+      "scss": "github:mobilexag/plugin-sass@^0.4.1"
     }
   }
 }
